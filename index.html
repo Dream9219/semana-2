@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semana 2 progrmacion web 1</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+        <!--ejercicio 1, links y tablas -->
+
+    <h1>Tablas y enlazes </h1>
+
+    <h3>links de cosas varias</h3>
+
+    <!--para poder hacer una lista se debe usar la etiqueta <ul> </ul>
+         y entre la eqtiqueta de ul de apertura y cierre se debe usar la etiqueta <li> </li>
+        esta nos permite crear una lista vertical.-->
+
+        <ul>
+            <li><a href="https://www.youtube.com/">youtube</a></li>
+            <li><a href="https://github.com/Dream9219">github</a></li>
+            <li><a href="https://www.instagram.com/">instagram</a></li>
+            <li><a href="https://getbootstrap.com/">booststrap</a></li>
+        </ul>
+
+    <!--para poder enlazar cualquier tipo de link debemos usar siempre el comando <a > </a>
+        , este abrira una linea de codigo con la etiqueta href (<a href=""></a>)
+         aqui es donde podremos pegar nuestro link y este debe ir entre las comillas dobles ""-->
+
+        <!-- ejercicio 2 tablas horizontal y vertical-->
+        
+        <!--tabla de datos personales-->
+        <!--La etiqueta th sirve para los encabezados, en este caso yo use 3 th, esto son 3,
+            si queremos hecer una lista con mas titulos hay que agregar mas eqtiquetas th-->
+        <table style="width: 100%;">
+        <tr>
+            <th>Nombres</th>  
+            <th>Apallidos</th>
+            <th>Direccion</th>
+        </tr>
+        <tr>
+            <!--La eqiqueta td sirven para rellenar las filas,
+                 esto es igual a las th mientras mas columnas creamos hay que repetir la eqtiqueta td-->
+            <td>Matias Nicolas</td>
+            <td>Marin Salazar</td>
+            <td>Chile, Región Metropolitana</td>
+        </tr>
+        <tr>
+           <th>Instituto</th>
+           <th>Carrera</th>
+           <th>Duracion de carrera</th>
+        </tr>
+        <td>Instituto Iacc</td>
+        <td>Tecnico en informatica</td>
+        <td>3 años con practica incluida</td>
+
+            
+    </table>
+      
+    <!--la eqtiqueta <table> </table> sirve para crear tablas en html, esta etiqueta contiene a las demas
+    etiquetas como <tr> </tr> que sirve para crear filas, <th></th> sirve para crear encaezados o titulos
+    y <td> </td> sirve para crea columnas -->
+
+    <!--ejercicio 3 audio-->
+    <!--Para poner un audio en una pagina web se pueden usar varios metodos, los mas faciles son enlazar un link
+     o usar un archivo de con formatos de audios, en este caso use un formato mp3 y la eqiqueta <audio controls></audio>.
+     controls hace que se visualize un reproducto en la web y este nos permite reproducir el archivo mp3.
+    tambien esta la etiqueta source src, al igual que href esta contien una ruta donde podemos poner archivos o links
+    , en este caso puse un archivo para esto cree una carperta contenedora
+     y despues segui la ruta de la carpeta para subir el archivo mp3-->
+    <audio controls>
+        <source src="assets/audio mp3/y2mate.com - Ghost  Mary On A Cross Live In Tampa 2022.mp3" type="audio/mp3"> 
+    </audio>
+
+
+    
+    
+</body>
+</html>
